@@ -113,7 +113,7 @@ function App() {
          </div>
          <div className='d-flex mt-3 w-100 justify-content-between'>
           <h5 className='mt-2'>Weight :</h5>
-          <input type="text" placeholder='Weight in cm' className='form-control w-75 ms-2' name='weight' onChange={(e)=>validate(e)} value={weight || ""}/>
+          <input type="text" placeholder='Weight in kg' className='form-control w-75 ms-2' name='weight' onChange={(e)=>validate(e)} value={weight || ""}/>
           {!isweight && 
             <p>Invalid input</p>
           }
